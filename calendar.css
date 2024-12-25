@@ -1,0 +1,47 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #000;
+    color: #ff0; /* Yellow for a Batman theme */
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #333;
+}
+
+/* ... other styles ... */
+#calendar header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#calendarTable {
+    width: 100%;
+    text-align: center;
+}
+
+#calendarTable thead td {
+    font-weight: bold;
+    background-color: #333;
+}
+
+#calendarTable tbody td {
+    padding: 20px 0;
+}
+
+
